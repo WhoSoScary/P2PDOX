@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("P2PDOX", "DarkTheme")
+
+
+
+
+local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection("P2PDOX from Project Alivial")
+Section:NewLabel("Version:   18.4.1")
+Section:NewLabel("Created by Avset#0086")
+Section:NewLabel("Recommended Game:    Friend Hangout")
+
+
+
+
+
+local Tab = Window:NewTab("Version 1")
+local Section = Tab:NewSection("Made by Avset#0086")
+Section:NewButton("Start", "Start Flinger", function()
+       loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
+end)
+
+
+local Tab = Window:NewTab("Version 2")
+local Section = Tab:NewSection("Made by Avset#0086")
+Section:NewLabel("IN PROGRESS...")
